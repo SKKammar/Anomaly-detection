@@ -26,7 +26,7 @@ Two approaches are implemented and compared:
 A Flask web interface allows real-time inference — upload any toothbrush image and get
 an anomaly heatmap back instantly.
 
-![Demo](results/heatmaps/toothbrush_patchcore/sample_000_label1.png)
+![Demo](https://github.com/SKKammar/Anomaly-detection/blob/master/sample_013_label1.png)
 
 ---
 

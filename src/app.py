@@ -101,7 +101,7 @@ def run_inference(pil_image):
     img_b64 = base64.b64encode(buf.read()).decode("utf-8")
 
     # Determine verdict
-    threshold = 0.015
+    threshold = 2.082
     verdict = "ANOMALY DETECTED" if top_score > threshold else "NORMAL"
     confidence = min(100, int(top_score / 0.03 * 100)) if top_score > threshold else int((1 - top_score / threshold) * 100)
 
